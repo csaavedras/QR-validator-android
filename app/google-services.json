@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "468751074546",
+    "project_id": "qr-validate",
+    "storage_bucket": "qr-validate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468751074546:android:179f5803b7be97f398fc6b",
+        "android_client_info": {
+          "package_name": "com.example.myfirstapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8RYqZmVNGfWazevJvhgLutAix4DmpYq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
