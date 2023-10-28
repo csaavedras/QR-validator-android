@@ -62,10 +62,11 @@
             android:background="@color/inputColor"
             android:ems="10"
             android:hint="Nombre"
+            android:textColor="@color/white"
             android:inputType="text"
             android:padding="10dp"
             android:textColorHint="@color/white"
-            android:textSize="20sp" />
+            android:textSize="25sp" />
 
         <Space
             android:layout_width="match_parent"
@@ -79,11 +80,12 @@
             android:layout_marginHorizontal="30dp"
             android:background="@color/inputColor"
             android:ems="10"
+            android:textColor="@color/white"
             android:hint="Correo electrónico"
             android:inputType="textEmailAddress"
             android:padding="10dp"
             android:textColorHint="@color/white"
-            android:textSize="20sp" />
+            android:textSize="25sp" />
 
         <Space
             android:layout_width="match_parent"
@@ -97,10 +99,11 @@
             android:background="@color/inputColor"
             android:ems="10"
             android:hint="Contraseña"
+            android:textColor="@color/white"
             android:inputType="textPassword"
             android:padding="10dp"
             android:textColorHint="@color/white"
-            android:textSize="20sp" />
+            android:textSize="25sp" />
 
         <Space
             android:layout_width="match_parent"
@@ -111,7 +114,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="30dp"
-            android:background="#D3C2F8"
+            android:textColor="@color/white"
+            android:background="@drawable/button_outline"
             android:text="Crear cuenta" />
 
     </LinearLayout>

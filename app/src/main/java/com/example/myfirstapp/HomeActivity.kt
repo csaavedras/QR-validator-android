@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.LinearLayout
 import android.widget.TextView
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.ktx.firestore
@@ -17,6 +18,7 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var dateEventText: TextView
     private lateinit var numberGuestsText: TextView
     private lateinit var descriptionEventText: TextView
+    private lateinit var goToEventsButton: LinearLayout
 
     private lateinit var countEventText:TextView
     private lateinit var totalGuestsText: TextView
@@ -28,6 +30,7 @@ class HomeActivity : AppCompatActivity() {
 
         val subtitle: TextView = findViewById(R.id.subtitleTextView)
         val createEventButton: Button = findViewById(R.id.addEvent)
+
 
 
 
@@ -90,6 +93,12 @@ class HomeActivity : AppCompatActivity() {
 
         createEventButton.setOnClickListener {
             val intent = Intent(this, FormEventActivity::class.java)
+            startActivity(intent)
+        }
+
+        goToEventsButton = findViewById(R.id.card_events_button)
+        goToEventsButton.setOnClickListener {
+            val intent = Intent(this, EventsActivity::class.java)
             startActivity(intent)
         }
 
